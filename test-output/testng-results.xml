@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Version comparison]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43487" started-at="2019-05-02T07:18:39Z" finished-at="2019-05-02T07:19:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43487" started-at="2019-05-02T07:18:39Z" finished-at="2019-05-02T07:19:23Z">
+      <class name="scripts.ActiTimeLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.ActiTimeLogin@548a9f61]" name="openApplication" is-config="true" duration-ms="33453" started-at="2019-05-02T12:48:39Z" finished-at="2019-05-02T12:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="actiLogin()[pri:0, instance:scripts.ActiTimeLogin@548a9f61]" name="actiLogin" duration-ms="10005" started-at="2019-05-02T12:49:13Z" finished-at="2019-05-02T12:49:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Version comparison]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- actiLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.ActiTimeLogin@548a9f61]" name="closeApplication" is-config="true" duration-ms="2" started-at="2019-05-02T12:49:23Z" finished-at="2019-05-02T12:49:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=actiLogin status=SUCCESS method=ActiTimeLogin.actiLogin()[pri:0, instance:scripts.ActiTimeLogin@548a9f61] output=Version comparison]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.ActiTimeLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
